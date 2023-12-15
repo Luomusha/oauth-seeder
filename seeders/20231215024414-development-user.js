@@ -6,10 +6,16 @@ module.exports = {
     await queryInterface.bulkInsert('Users', [{
       id: 1,
       username: 'Tom',
-      avatar: 'https://pic1.zhimg.com/v2-e39ed5a4b0b6ba4740f1868def8e5852_l.jpg?source=32738c0c',
+      avatar: 'https://pbs.twimg.com/media/DXbDdC_XcAIXWDW.jpg',
       createdAt: new Date(),
       updatedAt: new Date(),
-    }], {});
+    }, {
+      id: 2,
+      username: 'Jerry',
+      avatar: 'https://avatars.githubusercontent.com/u/41624063?v=4',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },], {});
   },
 
   async down(queryInterface, Sequelize) {
