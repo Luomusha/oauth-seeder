@@ -7,7 +7,7 @@ module.exports = {
       id: '45dfba5e-5730-4df1-afca-a8fb144d4f89',
       secret: 'xxx',
       name: 'Admin-client',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1t_2D7DepticTF8_al8t6yNOQtQiMPcx1mlBFqRtc8Q&s',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/App_Store_%28iOS%29.svg/1024px-App_Store_%28iOS%29.svg.png',
       description: 'Admin client application.',
       redirectUris: ["http://localhost:5173/callback"],
       grants: ["authorization_code", "password"],
