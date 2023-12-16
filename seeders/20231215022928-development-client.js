@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('Clients', [{
+    await queryInterface.bulkInsert({ tableName: 'Clients', schema: "oauth" }, [{
       id: '45dfba5e-5730-4df1-afca-a8fb144d4f89',
       secret: 'xxx',
       name: 'Admin-client',
